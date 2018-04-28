@@ -7,7 +7,18 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	</head>
+<style>
+body {font-family: Arial;}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    border-top: none;
+}
+.home__poem {
+	margin-left: 20px;
+}
+</style>
+</head>
 	<body>
 		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
@@ -15,15 +26,84 @@
 		      <a class="navbar-brand" href="#">VaidikaBharata.org</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li class="active"><a href="#">Home</a></li>
-		      <li><a href="#">Page 1</a></li>
-		      <li><a href="#">Page 2</a></li>
-		      <li><a href="#">Page 3</a></li>
+		      <li class="active">
+		      	  <a href="#" onclick="openPage(event, 'home')">Home</a></li>
+		      <li><a href="#" onclick="openPage(event, 'our-projects')">Our Projects</a></li>
+		      <li><a href="#" onclick="openPage(event, 'veda-paathashaalaa')">Veda Paathashaalaa</a></li>
+		      <li><a href="#" onclick="openPage(event, 'aims-and-objectives')">Aims and Objectives</a></li>
+		      <li><a href="#" onclick="openPage(event, 'contact-us')">Contact us</a></li>
+		      <li><a href="#" onclick="openPage(event, 'donate-to-us')">Donate to us</a></li>
 		    </ul>
 		  </div>
 		</nav>
 		<div class="container-fluid">
-		Welcome to VaidikaBharat.org
+		<div id="home" class="tabcontent">
+			<h3>Home</h3>
+			<p>Welcome to VaidikaBharat.org</p> 
+			<div class="home__poem">
+				<p>“हम कौन थे, क्या हो गए हैं, और क्या होंगे अभी</p>
+				<p>आओ विचारें आज मिल कर, ये समस्याएँ सभी</p>
+				<p>भू-लोक का गौरव प्रकृति का पुण्य लीला-स्थल कहाँ</p>
+				<p>फैला मनोहर गिरि हिमालय और गंगाजल कहाँ</p>
+				<p>सम्पूर्ण देशों से अधिक, किस देश का उत्कर्ष है</p>
+				<p>उसका कि जो ऋषि-भूमि है, वह कौन, भारतवर्ष है</p>
+				<p>यह पुण्य-भूमि प्रसिद्ध है, इसके निवासी आर्य हैं</p>
+				<p>विद्या, कला, कौशल्य, सबके जो प्रथम आचार्य हैं</p>
+				<p>सन्तान उनकी आज यद्यपि, हम अधोगति में पड़े</p>
+				<p>पर चिन्ह उनकी उच्चताके, आज भी कुछ हैं खड़े</p>
+				<p>वे आर्य ही थे, जो कभी अपने लिए जीते न थे</p>
+				<p>वे स्वार्थरत हो मोह की मदिरा कभी पीते न थे</p>
+				<p>वे मन्दिनी-तल में, सुकृति के बीज बोते थे सदा</p>
+				<p>पर दु:ख देख, दयालुता से द्रवित होते थे सदा</p>
+				<p>संसार के उपकार हित, जब जन्म लेते थे सभी</p>
+				<p>निश्चेष्ट हो कर किस तरह से बैठ सकते थे कभी</p>
+				<p>फैला यहीं से ज्ञान का आलोक सब संसार में</p>
+				<p>जागी यहीं थी, जग रही जो ज्योति अब संसार में</p>
+				<p>ये मोह-बन्धक मुक्त थे, स्वच्छंद थे, स्वाधीन थे</p>
+				<p>सम्पूर्ण सुख-संयुक्त थे, वे शान्ति-शिखरासीन थे</p>
+				<p>मनसे, वचनसे, कर्मसे, वे प्रभु-भजन में लीन थे</p>
+				<p>विख्यात ब्रह्मानन्द नद के, वे मनोहर मीन थे”</p>
+				<p>•	कविप्रवर श्री मैथिली शरण गुप्त की रचना "भारत - भारती" से उद्धृत</p>
+			</div>
+		</div>
+		<div id="our-projects" class="tabcontent">
+		  <h3>About Us</h3>
+		  <p>Krinvanto Vishwa Aryam!</p>
+		</div>
+		<div id="veda-paathashaalaa" class="tabcontent">
+		  <h3>Veda Paathashaalaa</h3>
+		  <p>Coming soon!</p>
+		</div>
+		<div id="aims-and-objectives" class="tabcontent">
+		  <h3>Aims and Objectives</h3>
+		  <p>Coming Soon!</p>
+		</div>	
+		<div id="contact-us" class="tabcontent">
+		  <h3>Contact us</h3>
+		  <p>Coming soon!</p>
+		</div>
+		<div id="donate-to-us" class="tabcontent">
+			<h2>Donate to us:</h2>
+			<p>ICICI Bank</p> 
+			<p>Account Number: 073405001350</p>
+			<p>Vaidik Bharat Trust</p>
+			<p>IFSC: icic0000734</p>
+		</div>
 	    </div>
+		<script>
+		window.onload = function() {
+		  openPage(event, 'home');
+		};
+
+		function openPage(evt, cityName) {
+		    var i, tabcontent;
+		    tabcontent = document.getElementsByClassName("tabcontent");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tabcontent[i].style.display = "none";
+		    }
+		    document.getElementById(cityName).style.display = "block";
+		    evt.currentTarget.className += " active";
+		}
+		</script>
 	</body>
 </html>
