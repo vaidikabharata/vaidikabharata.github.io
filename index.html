@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>VaidikaBharata</title>
+	<title>VaidikaBharata.org</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width", initial-scale=1>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <style>
 body {font-family: Arial;}
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    border-top: none;
-}
 .home__poem {
 	margin-left: 20px;
 }
 </style>
 </head>
 	<body>
+		<div id="app">
 		<nav class="navbar navbar-inverse">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <a class="navbar-brand" href="#" onclick="openPage(event, 'home')">VaidikaBharata.org</a>
+		      <a class="navbar-brand" href="#" onclick="openPage(event, 'home')">{{website}}</a>
 		    </div>
 		    <ul class="nav navbar-nav">
-		      <li class="active">
-		      	  <a href="#" onclick="openPage(event, 'home')">Home</a></li>
-		      <li><a href="#" onclick="openPage(event, 'our-projects')">Our Projects</a></li>
-		      <li><a href="#" onclick="openPage(event, 'veda-paathashaalaa')">Veda Paathashaalaa</a></li>
-		      <li><a href="#" onclick="openPage(event, 'aims-and-objectives')">Aims and Objectives</a></li>
-		      <li><a href="#" onclick="openPage(event, 'contact-us')">Contact us</a></li>
-		      <li><a href="#" onclick="openPage(event, 'donate-to-us')">Donate to us</a></li>
-		    </ul>
+		      <li>
+		      	  <a href="#" @click=setCurrentTab('home')>Home</a></li>
+		      	  <li><a href="#" @click=setCurrentTab('our-projects')>Our Projects</a></li>
+			      <li><a href="#" @click=setCurrentTab('veda-paathashaalaa')>Veda Paathashaalaa</a></li>
+			      <li><a href="#" @click=setCurrentTab('aims-and-objectives')>Aims and Objectives</a></li>
+			      <li><a href="#" @click=setCurrentTab('contact-us')>Contact us</a></li>
+			      <li><a href="#" @click=setCurrentTab('donate-to-us')>Donate to us</a></li>
+			</ul>
 		  </div>
 		</nav>
 		<div class="container-fluid">
-		<div id="home" class="tabcontent">
+		<div id="home" v-if="currentTab==='home'">
 			<h3>Home</h3>
-			<p>Welcome to VaidikaBharat.org</p> 
+			<p>Welcome to {{website}}</p> 
 			<div class="home__poem">
 				<p>“हम कौन थे, क्या हो गए हैं, और क्या होंगे अभी</p>
 				<p>आओ विचारें आज मिल कर, ये समस्याएँ सभी</p>
@@ -66,23 +63,23 @@ body {font-family: Arial;}
 				<p>•	कविप्रवर श्री मैथिली शरण गुप्त की रचना "भारत - भारती" से उद्धृत</p>
 			</div>
 		</div>
-		<div id="our-projects" class="tabcontent">
+		<div id="our-projects" v-if="currentTab==='our-projects'">
 		  <h3>About Us</h3>
 		  <p>Krinvanto Vishwa Aryam!</p>
 		</div>
-		<div id="veda-paathashaalaa" class="tabcontent">
+		<div id="veda-paathashaalaa" v-if="currentTab==='veda-paathashaalaa'">
 		  <h3>Veda Paathashaalaa</h3>
 		  <p>Coming soon!</p>
 		</div>
-		<div id="aims-and-objectives" class="tabcontent">
+		<div id="aims-and-objectives" v-if="currentTab==='aims-and-objectives'">
 		  <h3>Aims and Objectives</h3>
 		  <p>Coming Soon!</p>
 		</div>	
-		<div id="contact-us" class="tabcontent">
+		<div id="contact-us" v-if="currentTab==='contact-us'">
 		  <h3>Contact us</h3>
 		  <p>Coming soon!</p>
 		</div>
-		<div id="donate-to-us" class="tabcontent">
+		<div id="donate-to-us" v-if="currentTab==='donate-to-us'">
 			<h2>Donate to us:</h2>
 			<p>ICICI Bank</p> 
 			<p>Account Number: 073405001350</p>
@@ -90,20 +87,20 @@ body {font-family: Arial;}
 			<p>IFSC: icic0000734</p>
 		</div>
 	    </div>
+	</div>
 		<script>
-		window.onload = function() {
-		  openPage(event, 'home');
-		};
-
-		function openPage(evt, cityName) {
-		    var i, tabcontent;
-		    tabcontent = document.getElementsByClassName("tabcontent");
-		    for (i = 0; i < tabcontent.length; i++) {
-		        tabcontent[i].style.display = "none";
-		    }
-		    document.getElementById(cityName).style.display = "block";
-		    evt.currentTarget.className += " active";
-		}
+			var app = new Vue({
+				el: '#app',
+				data: {
+					website: 'VaidikaBharata.org',
+					currentTab: 'home'
+				},
+				methods: {
+					setCurrentTab(tabName) {
+						this.currentTab = tabName;
+					}
+				}
+			});
 		</script>
 	</body>
 </html>
