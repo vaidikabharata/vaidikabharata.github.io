@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text_center"  style="width: 206px">
         <h3>Contact us</h3>
         <div>
             <div>
@@ -40,5 +40,11 @@
     .v-inline-block {
         margin-left: 5px;
         display: inline-block;
+    }
+
+    .text_center {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
     }
 </style>

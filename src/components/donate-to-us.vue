@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="text_center"  style="width: 215px">
         <h2>Donate to us:</h2>
         <p><b>Bank:</b> ICICI Bank</p>
         <p><b>Account Number:</b> 073405001350</p>
@@ -16,17 +16,15 @@
 </template>
 
 <script>
-    module.exports = {
-        data: function () {
-            return {
-                who: 'world'
-            }
-        }
-    }
 </script>
 <style>
     .qr-img {
         height: 200px;
         width: 200px;
+    }
+    .text_center {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
     }
 </style>
