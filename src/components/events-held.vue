@@ -22,16 +22,16 @@
 
                 </div>
                 <div class="modal-body">
-                    The education system as it was laid down by the ancient Rshi-s has almost vanished from the face of
+                    <p>The education system as it was laid down by the ancient Rshi-s has almost vanished from the face of
                     bharatavarsha, the progeny of those who said विद्ययामृतमश्नुते don’t have the least bit idea of
                     what विद्या even is. Samskara diksha shivira, is an attempt at introducing young
-                    boys to the gurukula education system over a period of 8-10 days. In the
-                    residential camps, children learn to do the basic rituals like sandhyopasanam,
+                    boys to the gurukula education system over a period of 8-10 days. </p>
+                    <p>In the residential camps, children learn to do the basic rituals like sandhyopasanam,
                     samidaadhaanam, yogabhyaasa, basic introduction to true indian history and also
                     practice the lifestyle of a brahmachari in a gurukula. Least of all, this plants the
                     seed of dharma in these boys and we hope a day may come when this seed
-                    transforms to a full grown tree.
-                    The latest such shivira was held from 3 rd – 10 th June 2018 in Palwal, Haryana.
+                    transforms to a full grown tree.</p>
+                    <p>The latest such shivira was held from 3 rd – 10 th June 2018 in Palwal, Haryana.</p>
                     <div class="col-md-12">
                         <img class="img_responsive"
                              src="img\events-held\samskara_shivira\Collage_samskara_shivira_1.jpg">
