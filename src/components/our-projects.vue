@@ -274,7 +274,7 @@
 
     .modal-body {
         position: relative;
-        padding: 20px 200px;
+        padding: 2% 15%;
         text-align: center;
     }
 
