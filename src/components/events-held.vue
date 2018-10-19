@@ -55,9 +55,9 @@
                         </div>
                     </div>
                     <div class="modal-body">
-                        <p>अग्ग्नि सो᳘मो व्व᳘रुणो मित्त्रऽइ᳘न्द्रो बृ᳘हस्प᳘ति सविता य᳘ सहस्री ।</p>
-                        <p>पूषा᳘ नो गो᳘भिर᳘वसा स᳘रस्वती त्त्व᳘ष्ट्टा रूपा᳘णि स᳘मनक्तु यज्ञै ॥</p>
-                        <p>सविता᳘ राष्ट्ट्र᳘ᳮ राष्ट्ट्र᳘पति राष्ट्ट्र᳘मस्म्मि᳘न्न्यज्ञे म᳘यि दधातु ।</p>
+                        <p>अग्ग्निः सोमो व्वरुणो मित्त्रऽइन्द्रो बृहस्पतिः सविता यः सहस्री ।</p>
+                        <p>पूषा नो गोभिरवसा सरस्वती त्त्वष्ट्टा रूपाणि समनक्तु यज्ञैः ॥</p>
+                        <p>सविता राष्ट्ट्रं राष्ट्ट्रपतिः राष्ट्ट्रमस्म्मिन्न्यज्ञे मयि दधातु ।</p>
 
                         <p>May Agni, Soma, Varuna, Mitra, Indra, Brhaspati, Savita, Pusha, Sarasvati and Tvashta help
                         us obtain Anna, Rajya, Kshatra, Bala, Brahmavarchasa, Rashtra and most of all, Mitra.
@@ -88,10 +88,9 @@
 
                     </div>
                     <div class="modal-body">
-                        <p>अग्ग्नि सो᳘मो व्व᳘रुणो मित्त्रऽइ᳘न्द्रो बृ᳘हस्प᳘ति सविता य᳘ सहस्री ।
-                        वेदानां सामवेदोस्मि, </p>
+                        <p>वेदानां सामवेदोस्मि, </p>
                         <p>amongst the veda-s, I am the sama veda, thus spoke shri kRshna.</p>
-                        <p>A sama veda parayanam was organised from phalguna krshna 4-6, 2073 i.e. Feb
+                        <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from phalguna krshna 4-6, 2073 i.e. Feb
                             14-17, 2017 in Noida, UP by scholars invited from tirupati and Chennai.</p>
                         <div class="col-md-12">
                             <img class="img_responsive" src="img\events-held\sAmapArAyaNam\Collage_sAmapArAyaNam.jpg">
@@ -139,9 +138,9 @@
                         </div>
                     </div>
                     <div class="modal-body">
-                        <p>अग्ग्नि सो᳘मो व्व᳘रुणो मित्त्रऽइ᳘न्द्रो बृ᳘हस्प᳘ति सविता य᳘ सहस्री ।</p>
-                        <p>पूषा᳘ नो गो᳘भिर᳘वसा स᳘रस्वती त्त्व᳘ष्ट्टा रूपा᳘णि स᳘मनक्तु यज्ञै ॥</p>
-                        <p>सविता᳘ राष्ट्ट्र᳘ᳮ राष्ट्ट्र᳘पति राष्ट्ट्र᳘मस्म्मि᳘न्न्यज्ञे म᳘यि दधातु ।</p>
+                        <p>अग्ग्निः सोमो व्वरुणो मित्त्रऽइन्द्रो बृहस्पतिः सविता यः सहस्री ।</p>
+                        <p>पूषा नो गोभिरवसा सरस्वती त्त्वष्ट्टा रूपाणि समनक्तु यज्ञैः ॥</p>
+                        <p>सविता राष्ट्ट्रं राष्ट्ट्रपतिः राष्ट्ट्रमस्म्मिन्न्यज्ञे मयि दधातु ।</p>
                         <p>May Agni, Soma, Varuna, Mitra, Indra, Brhaspati, Savita, Pusha, Sarasvati and Tvashta help
                         us obtain Anna, Rajya, Kshatra, Bala, Brahmavarchasa, Rashtra and most of all, Mitra.
                         The shrauta rites and rituals form the very backbone of the vaidika tradition, these are called
