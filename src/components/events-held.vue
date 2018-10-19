@@ -88,7 +88,8 @@
 
                     </div>
                     <div class="modal-body">
-                        <p>वेदानां सामवेदोस्मि </p>
+                        <p>वेदानां सामवेदोऽस्मि देवानामस्मि वासवः ।</p>
+                        <p>इन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना ॥१०।२२ गीता॥</p>
                         <p>amongst the veda-s, I am the sama veda, thus spoke shri kRshna.</p>
                         <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from phalguna krshna 4-6, 2073 i.e. Feb
                             14-17, 2017 in Noida, UP by scholars invited from tirupati and Chennai.</p>
