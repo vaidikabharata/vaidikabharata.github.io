@@ -92,7 +92,7 @@
                     <p>b) Raghunath Temple Library, Jammu (in association with the engangotri trust)</p>
                     <p>c) Panjab University, Chandigarh (in association with the engangotri trust)</p>
                     <p>d) Shri Krishna Mueseum, Kurukshetra</p>
-                    <p>e) Bhuri Singh Mueseum, Chamba [yet to start]</p>
+                   
                 </div>
             </div>
         </div>
