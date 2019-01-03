@@ -91,7 +91,7 @@
                     <p>a) ASR, Melkote, Karnataka</p>
                     <p>b) Raghunath Temple Library, Jammu (in association with the engangotri trust)</p>
                     <p>c) Panjab University, Chandigarh (in association with the engangotri trust)</p>
-                    <p>d) Shri Krishna Mueseum, Kurukshetra</p>
+                    <p>d) Shri Krishna Museum, Kurukshetra (in association with the engangotri trust)</p>
                    
                 </div>
             </div>
