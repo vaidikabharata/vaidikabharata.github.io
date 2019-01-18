@@ -87,8 +87,9 @@
                     that the knowledge must be preserved for posterity, that can be ensured by preserving the
                     manuscripts. That can be done by digitizing them. Vaidika Bharata has digitized very important and
                     rare manuscripts related to shankhayana shakha of the rgveda (read more here) and we also have
-                        been digitizing rare manuscripts from all over bharata, here’s a list of centres we’re running:</p>
-                    <p>a) ASR, Melkote, Karnataka</p>
+                        been digitizing rare manuscripts from all over bharata, we’re currently digitising all manuscripts with the <b>academy of sanskrit research, Melukote, Karnataka</b></p>
+                    <p> In past we have worked in the following libraries as well</p>
+                    <p>a) Mansucripts with traditional scholars of Banswada, Rajasthan
                     <p>b) Raghunath Temple Library, Jammu (in association with the engangotri trust)</p>
                     <p>c) Panjab University, Chandigarh (in association with the engangotri trust)</p>
                     <p>d) Shri Krishna Museum, Kurukshetra (in association with the engangotri trust)</p>
