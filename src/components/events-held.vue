@@ -8,6 +8,7 @@
             <p @click="showModal4=!showModal4" class="event_name">Chaturmasya 2017</p>
             <p @click="showModal5=!showModal5" class="event_name">Mitravinda shrauta ishti 2018</p>
             <p @click="showModal6=!showModal6" class="event_name">Rgveda shankhayana parayanam 2018</p>
+            <p @click="showModal7=!showModal7" class="event_name">Samaveda parayanam 2018</p>
             <p>**Click on each of them to know more</p>
         </div>
         <div v-show="showModal1" class="modal-backdrop">
@@ -185,6 +186,34 @@
             </div>
         </div>
     </div>
+    
+     <div v-show="showModal7">
+            <div class="modal-backdrop">
+                <div class="modal">
+                    <div class="modal-header">
+                        <div class="col-md-11">
+                            <h3>Samaveda parayanam 2017</h3>
+                        </div>
+                        <div class="col-md-1 modal-header-close_button">
+                            <i @click="showModal3=false" class="fas fa-times"></i>
+                        </div>
+
+                    </div>
+                    <div class="modal-body">
+                        <p>वेदानां सामवेदोऽस्मि देवानामस्मि वासवः ।</p>
+                        <p>इन्द्रियाणां मनश्चास्मि भूतानामस्मि चेतना ॥१०।२२ गीता॥</p>
+                        <p>amongst the veda-s, I am the sama veda, thus spoke shri kRshna.</p>
+                        <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from kartika shukla ekadashi to purnima, 2075 i.e. Nov
+                            19-23, 2018 in Kanchi Kamakshi Mandiram, Delhi by scholars invited from Kashi, shishya-s of the great acharya vedamurti
+                            shri gagankumara chattopadhyaya.</p>
+                        <div class="col-md-12">
+                            <img class="img_responsive" src="img\events-held\sAmapArAyaNam\Collage_sAmapArAyaNam.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
 </template>
 
 <script>
