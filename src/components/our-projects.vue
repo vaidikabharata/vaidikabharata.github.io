@@ -175,9 +175,9 @@
                         traditions and practitioners of the vaidika knowledge.</p>
                     <p>In our endeavour of re-establishing the veda
                     dharma in this land dear to the deva-s, we have been holding veda-parayanam-s so that an
-                    awareness can be created in the general public about vaidika culture and studies. We held sama
-                    veda parayanam in February, 2017, shukla yajurveda parayanam in 2015 and are going to hold
-                        madhyandina ghana parayanam very soon.</p>
+                    awareness can be created in the general public about vaidika culture and studies. We held first ever, in a really long time,
+                    rgveda shankhayana parayanam in June 2018, sama veda parayanam in November 2018 and February 2017, shukla yajurveda parayanam 
+                    in 2015 and are going to hold madhyandina ghana parayanam very soon.</p>
                 </div>
             </div>
         </div>
