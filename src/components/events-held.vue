@@ -207,7 +207,7 @@
                             19-23, 2018 in Kanchi Kamakshi Mandiram, Delhi by scholars invited from Kashi, shishya-s of the great acharya vedamurti
                             shri gagankumara chattopadhyaya.</p>
                         <div class="col-md-12">
-                            <img class="img_responsive" src="img\events-held\sAmapArAyaNam\Collage_sAmapArAyaNam.jpg">
+                         
                         </div>
                     </div>
                 </div>
