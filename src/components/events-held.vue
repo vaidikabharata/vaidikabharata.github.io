@@ -206,9 +206,7 @@
                         <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from kartika shukla ekadashi to purnima, 2075 i.e. Nov
                             19-23, 2018 in Kanchi Kamakshi Mandiram, Delhi by scholars invited from Kashi, shishya-s of the great acharya vedamurti
                             shri gagankumara chattopadhyaya.</p>
-                        <div class="col-md-12">
-                         
-                        </div>
+                     
                     </div>
                 </div>
             </div>
