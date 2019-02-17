@@ -8,7 +8,8 @@ var app = new Vue({
         'veda-paathashaalaa': httpVueLoader('src/components/veda-paathashaalaa.vue'),
         'our-projects': httpVueLoader('src/components/our-projects.vue'),
         'upcoming-events': httpVueLoader('src/components/upcoming-events.vue'),
-        'events-held': httpVueLoader('src/components/events-held.vue')
+        'events-held': httpVueLoader('src/components/events-held.vue'),
+        'in-news': httpVueLoader('src/components/in-news.vue')
     },
     data: {
         website: 'VaidikaBharata.org',

@@ -60,14 +60,13 @@
                 </a>
             </div>
             <ul class="nav navbar-nav">
-                <li>
-                    <a href="#home" @click=setCurrentTab('home')>Home</a></li>
+                <li><a href="#home" @click=setCurrentTab('home')>Home</a></li>
                 <li><a href="#our-projects" @click=setCurrentTab('our-projects')>Our Projects</a></li>
                 <li><a href="#veda-paathashaalaa" @click=setCurrentTab('veda-paathashaalaa')>Veda Paathashaalaa</a></li>
-                <li><a href="#aims-and-objectives" @click=setCurrentTab('aims-and-objectives')>Aims and Objectives</a>
-                </li>
+                <li><a href="#aims-and-objectives" @click=setCurrentTab('aims-and-objectives')>Aims and Objectives</a></li>
                 <li><a href="#upcoming-events" @click=setCurrentTab('upcoming-events')>Upcoming Events</a></li>
                 <li><a href="#events-held" @click=setCurrentTab('events-held')>Events held</a></li>
+                <li><a href="#in-news" @click=setCurrentTab('in-news')>In News</a></li>
                 <li><a href="#contact-us" @click=setCurrentTab('contact-us')>Contact us</a></li>
                 <li><a href="#donate-to-us" @click=setCurrentTab('donate-to-us')>Donate to us</a></li>
             </ul>
@@ -98,6 +97,9 @@
             </div>
             <div id="events-held" v-if="currentTab==='events-held'">
                 <events-held></events-held>
+            </div>
+            <div id="in-news" v-if="currentTab==='in-news'">
+                <in-news></in-news>
             </div>
         </div>
         <div class="col-md-3">

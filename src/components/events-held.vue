@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="text_center" style="width: 245px">
-            <h3>Events Held</h3>
+        <div class="text_center" style="width: 380px">
+            <h3>   Events Held</h3>
             <p @click="showModal1=!showModal1" class="event_name">Samskara diksha shivira-s</p>
             <p @click="showModal2=!showModal2" class="event_name">Mitravinda shrauta ishti 2017</p>
             <p @click="showModal3=!showModal3" class="event_name">Samaveda parayanam 2017</p>
@@ -9,7 +9,6 @@
             <p @click="showModal5=!showModal5" class="event_name">Mitravinda shrauta ishti 2018</p>
             <p @click="showModal6=!showModal6" class="event_name">Rgveda shankhayana parayanam 2018</p>
             <p @click="showModal7=!showModal7" class="event_name">Samaveda parayanam 2018</p>
-            <p>**Click on each of them to know more</p>
         </div>
         <div v-show="showModal1" class="modal-backdrop">
             <div class="modal">
@@ -159,6 +158,7 @@
                 </div>
             </div>
         </div>
+
         <div v-show="showModal6">
             <div class="modal-backdrop">
                 <div class="modal">
@@ -185,9 +185,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    
-     <div v-show="showModal7">
+
+        <div v-show="showModal7">
             <div class="modal-backdrop">
                 <div class="modal">
                     <div class="modal-header">
@@ -195,9 +194,8 @@
                             <h3>Samaveda parayanam 2017</h3>
                         </div>
                         <div class="col-md-1 modal-header-close_button">
-                            <i @click="showModal3=false" class="fas fa-times"></i>
+                            <i @click="showModal7=false" class="fas fa-times"></i>
                         </div>
-
                     </div>
                     <div class="modal-body">
                         <p>वेदानां सामवेदोऽस्मि देवानामस्मि वासवः ।</p>
@@ -206,12 +204,30 @@
                         <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from kartika shukla ekadashi to purnima, 2075 i.e. Nov
                             19-23, 2018 in Kanchi Kamakshi Mandiram, Delhi by scholars invited from Kashi, shishya-s of the great acharya vedamurti
                             shri gagankumara chattopadhyaya.</p>
+                        <div class="col-md-12">
+                            <iframe class="vid_responsive" src="https://www.youtube.com/embed/bi1lEmbpykA"
+                                    frameborder="0"
+                                    allow="accelerometer; encrypted-media; gyroscope"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-12">
+                            <iframe class="vid_responsive" src="https://www.youtube.com/embed/XO8blnHJpk0"
+                                    frameborder="0"
+                                    allow="accelerometer; encrypted-media; gyroscope"
+                                    allowfullscreen></iframe>
+                        </div>
+                        <div class="col-md-12">
+                            <img class="img_responsive"
+                                 src="img\events-held\samaveda_parayanam_2017\Collage_samaveda_parayanam_2017_1.jpg">
+                        </div>
                      
                     </div>
                 </div>
             </div>
         </div>
-       
+
+
+    </div>
 </template>
 
 <script>
@@ -223,13 +239,14 @@
                 showModal3: false,
                 showModal4: false,
                 showModal5: false,
-                showModal6: false
+                showModal6: false,
+                showModal7: false
             }
         }
     }
 </script>
 
-<style>
+<style scoped>
     .text_center {
         margin-left: auto;
         margin-right: auto;
@@ -276,13 +293,66 @@
         text-align: center;
     }
 
-    .event_name {
-        cursor: pointer;
-    }
-
     .img_responsive {
         width: 100%;
         height: auto;
+    }
+
+    .vid_responsive {
+        width: 98%;
+        height: 400px;
+    }
+
+    .event_name {
+        cursor: pointer;
+        color: #213999;
+        font-weight: 500;
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+        transition: transform 0.2s;
+        display: inline-block;
+        text-decoration: none;
+        position: relative;
+        padding: 0 0.25em;
+        font-family: Calibri;
+        font-size: 20px;
+    }
+
+    .event_name:hover{
+        color: #d04c3f;
+    }
+
+    .event_name:before,
+    .event_name:after {
+        position: absolute;
+        top: 0;
+        font-weight: 100;
+        font-size: 150%;
+        line-height: 1;
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .event_name:before {
+        left: -0.1em;
+        content: '[';
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    .event_name:after {
+        right: -0.1em;
+        content: ']';
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    .event_name:hover::before,
+    .event_name:hover::after {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
 
 </style>

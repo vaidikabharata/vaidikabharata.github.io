@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="text_center" style="width: 245px">
+        <div class="text_center" style="width: 350px">
             <h3>Our Projects</h3>
             <p @click="showModal1=!showModal1" class="project_name">Revival of shankhayana shakha</p>
             <p @click="showModal2=!showModal2" class="project_name">Digitization of manuscripts</p>
@@ -8,7 +8,6 @@
             <p @click="showModal4=!showModal4" class="project_name">Revival of syv shrauta karma</p>
             <p @click="showModal5=!showModal5" class="project_name">Holding veda parayanam-s</p>
             <p @click="showModal6=!showModal6" class="project_name">Samskara deekshaa shivira-s</p>
-            <p>**Click on each of them to know more</p>
         </div>
         <div v-show="showModal1" class="modal-backdrop">
             <div class="modal">
@@ -237,10 +236,6 @@
         text-align: left;
     }
 
-    .project_name {
-        cursor: pointer;
-    }
-
     .modal-backdrop {
         position: fixed;
         top: 7.5%;
@@ -286,4 +281,57 @@
         height: auto;
         margin-bottom: 10px;
     }
+
+    .project_name {
+        cursor: pointer;
+        color: #213999;
+        font-weight: 500;
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+        transition: transform 0.2s;
+        display: inline-block;
+        text-decoration: none;
+        position: relative;
+        padding: 0 0.25em;
+        font-family: Calibri;
+        font-size: 20px;
+    }
+
+    .project_name:hover{
+        color: #d04c3f;
+    }
+
+    .project_name:before,
+    .project_name:after {
+        position: absolute;
+        top: 0;
+        font-weight: 100;
+        font-size: 150%;
+        line-height: 1;
+        opacity: 0;
+        -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+        transition: opacity 0.2s, transform 0.2s;
+    }
+
+    .project_name:before {
+        left: -0.1em;
+        content: '[';
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+
+    .project_name:after {
+        right: -0.1em;
+        content: ']';
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+
+    .project_name:hover::before,
+    .project_name:hover::after {
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
 </style>
