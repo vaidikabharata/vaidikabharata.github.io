@@ -225,8 +225,12 @@
                         difficulties of any kind whatsoever in upholding Dharma.</p>
                     <p>Least of all, this plants the seed of dharma in these boys and we hope a day may
                         come when this seed transforms to a full grown tree.</p>
-                    <p>The Organiser had published a story about our work which you can read here.</p>
-                    <p><a>http://www.organiser.org//Encyc/2018/6/22/inculcating-Dharma-in-Young-Minds.html</a></p>
+                    <p>The Organiser had published a story about our work which you can read here:</p>
+                    <div>
+                <a href="http://www.organiser.org//Encyc/2018/6/22/inculcating-Dharma-in-Young-Minds.html" target="_blank" >
+                Organiser: Sanskaar Deeksha Shivir
+                </a>
+            </div>
                     <p>You can see the pictures of the earlier shivira-s in Events held tab.</p>
                 </div>
             </div>
