@@ -61,38 +61,19 @@
                 IndiaFacts: After millennium a Tradition is Reborn
                 </a>
             </div>
+            
+                        <div>
+                <a href="http://epaper.patrika.com/c/29755111" target="_blank" >
+                Rajasthan Patrika: Reviving 550 years old Manuscript (Hindi)
+                </a>
+            </div>
+
 
                 </div>
             </div>
         </div>
 
 
-<template>
-        <div class="text_center" style="width: 530px">
-            <div>
-                <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
-                    Organiser: Revival of an ‘extinct’ tradition
-                </a>
-            </div>
-
-            <div>
-                <a href="http://epaper.patrika.com/c/29755111" target="_blank" >
-                Rajasthan Patrika: Reviving 550 years old Manuscript (Hindi)
-                </a>
-            </div>
-
-            <div>
-                <a href="http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/" target="_blank" >
-                IndiaFacts: After millennium a Tradition is Reborn
-                </a>
-            </div>
-
-           
-        <div class="col-md-12">
-            <img class="img_responsive" src="img\events-held\shankhayana\Collage_shankhayana_2.jpg">
-        </div>
-    </div>
-</template>
 
         <div v-show="showModal2" class="modal-backdrop">
             <div class="modal">
