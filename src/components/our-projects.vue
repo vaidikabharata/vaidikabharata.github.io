@@ -47,7 +47,7 @@
                     dharmika sajjana-s all over bharata and beyond. May parameshvara keep his benevolent
                         eye on us all.</p>
 
-                    <p>To read more about our efforts in this direction, please see the link below.</p>
+                    <p>To read more about our efforts in this direction, please see the links below.</p>
                    
  <div>
                 <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
@@ -55,6 +55,7 @@
                 </a>
             </div>
             
+           
             <div>
                 <a href="http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/" target="_blank" >
                 IndiaFacts: After millennium a Tradition is Reborn
@@ -64,6 +65,39 @@
                 </div>
             </div>
         </div>
+
+
+<template>
+    <div class="in-news-style">
+        <div class="text_center" style="width: 265px; margin-bottom: 10px">
+            <h3>In News</h3>
+        </div>
+
+        <div class="text_center" style="width: 530px">
+            <div>
+                <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
+                    Organiser: Revival of an ‘extinct’ tradition
+                </a>
+            </div>
+
+            <div>
+                <a href="http://epaper.patrika.com/c/29755111" target="_blank" >
+                Rajasthan Patrika: Reviving 550 years old Manuscript (Hindi)
+                </a>
+            </div>
+
+            <div>
+                <a href="http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/" target="_blank" >
+                IndiaFacts: After millennium a Tradition is Reborn
+                </a>
+            </div>
+
+           
+        <div class="col-md-12">
+            <img class="img_responsive" src="img\events-held\shankhayana\Collage_shankhayana_2.jpg">
+        </div>
+    </div>
+</template>
 
         <div v-show="showModal2" class="modal-backdrop">
             <div class="modal">
