@@ -68,11 +68,6 @@
 
 
 <template>
-    <div class="in-news-style">
-        <div class="text_center" style="width: 265px; margin-bottom: 10px">
-            <h3>In News</h3>
-        </div>
-
         <div class="text_center" style="width: 530px">
             <div>
                 <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
