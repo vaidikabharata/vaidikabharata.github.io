@@ -48,9 +48,19 @@
                         eye on us all.</p>
 
                     <p>To read more about our efforts in this direction, please see the link below.</p>
-                    <p><a>http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html</a></p>
+                   
+ <div>
+                <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
+                    Organiser: Revival of an ‘extinct’ tradition
+                </a>
+            </div>
+            
+            <div>
+                <a href="http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/" target="_blank" >
+                IndiaFacts: After millennium a Tradition is Reborn
+                </a>
+            </div>
 
-                    <p><a>http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/</a></p>
                 </div>
             </div>
         </div>
