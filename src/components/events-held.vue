@@ -191,7 +191,7 @@
                 <div class="modal">
                     <div class="modal-header">
                         <div class="col-md-11">
-                            <h3>Samaveda parayanam 2017</h3>
+                            <h3>Samaveda parayanam 2018</h3>
                         </div>
                         <div class="col-md-1 modal-header-close_button">
                             <i @click="showModal7=false" class="fas fa-times"></i>
@@ -204,20 +204,7 @@
                         <p>A sama veda parayanam of the kauthumiya shakha, madra paddhati, was organised from kartika shukla ekadashi to purnima, 2075 i.e. Nov
                             19-23, 2018 in Kanchi Kamakshi Mandiram, Delhi by scholars invited from Kashi, shishya-s of the great acharya vedamurti
                             shri gagankumara chattopadhyaya.</p>
-                        <div class="col-md-12">
-                            <iframe class="vid_responsive" src="https://www.youtube.com/embed/bi1lEmbpykA"
-                                    frameborder="0"
-                                    allow="accelerometer; encrypted-media; gyroscope"
-                                    allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-12">
-                            <iframe class="vid_responsive" src="https://www.youtube.com/embed/XO8blnHJpk0"
-                                    frameborder="0"
-                                    allow="accelerometer; encrypted-media; gyroscope"
-                                    allowfullscreen></iframe>
-                        </div>
-                        <div class="col-md-12">
-                            <img class="img_responsive"
+                          <img class="img_responsive"
                                  src="img\events-held\samaveda_parayanam_2017\Collage_samaveda_parayanam_2017_1.jpg">
                         </div>
                      
