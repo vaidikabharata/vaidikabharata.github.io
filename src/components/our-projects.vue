@@ -41,9 +41,9 @@
                         ensures a full-fledged revival of the shakha.</p>
                     <p>We have also digitised no less than 43,000 pages of rare and important manuscripts in the
                     possession of these Acharya-s, we hope these will provide the scriptural guidance towards
-                    the resurrection of the shankhayana shakha. Even the most venerable, brahmaswam madham of thrissur, kerala, recognised our 
+                    the resurrection of the shankhayana shakha. The most venerable, brahmaswam madham of thrissur, kerala, recognised our 
                     efforts in this direction in its monthly magazine, vedadhwani (you can read the article in the 'in news'
-                    section of this website.</p>
+                    section of this website).</p>
                     <p>All this has been possible because of the generous help we have always received from
                     dharmika sajjana-s all over bharata and beyond. May parameshvara keep his benevolent
                         eye on us all.</p>
