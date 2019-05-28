@@ -41,19 +41,40 @@
                         ensures a full-fledged revival of the shakha.</p>
                     <p>We have also digitised no less than 43,000 pages of rare and important manuscripts in the
                     possession of these Acharya-s, we hope these will provide the scriptural guidance towards
-                    the resurrection of the shankhayana shakha. Read more about our efforts in mansucripts
-                        digitisation here.</p>
+                    the resurrection of the shankhayana shakha. The most venerable, brahmaswam madham of thrissur, kerala, recognised our 
+                    efforts in this direction in its monthly magazine, vedadhwani (you can read the article in the 'in news'
+                    section of this website).</p>
                     <p>All this has been possible because of the generous help we have always received from
                     dharmika sajjana-s all over bharata and beyond. May parameshvara keep his benevolent
                         eye on us all.</p>
 
-                    <p>To read more about our efforts in this direction, please see the link below.</p>
-                    <p><a>http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html</a></p>
+                    <p>To read more about our efforts in this direction, please see the links below.</p>
+                   
+ <div>
+                <a href="http://www.organiser.org/Encyc/2018/7/19/extinct-tradition-Shankhayan-Shakha.html" target="_blank" >
+                    Organiser: Revival of an ‘extinct’ tradition
+                </a>
+            </div>
+            
+           
+            <div>
+                <a href="http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/" target="_blank" >
+                IndiaFacts: After millennium a Tradition is Reborn
+                </a>
+            </div>
+            
+                        <div>
+                <a href="http://epaper.patrika.com/c/29755111" target="_blank" >
+                Rajasthan Patrika: Reviving 550 years old Manuscript (Hindi)
+                </a>
+            </div>
 
-                    <p><a>http://indiafacts.org/after-millenia-tradition-reborn-vaidika-bharata/</a></p>
+
                 </div>
             </div>
         </div>
+
+
 
         <div v-show="showModal2" class="modal-backdrop">
             <div class="modal">
@@ -205,8 +226,12 @@
                         difficulties of any kind whatsoever in upholding Dharma.</p>
                     <p>Least of all, this plants the seed of dharma in these boys and we hope a day may
                         come when this seed transforms to a full grown tree.</p>
-                    <p>The Organiser had published a story about our work which you can read here.</p>
-                    <p><a>http://www.organiser.org//Encyc/2018/6/22/inculcating-Dharma-in-Young-Minds.html</a></p>
+                    <p>The Organiser had published a story about our work which you can read here:</p>
+                    <div>
+                <a href="http://www.organiser.org//Encyc/2018/6/22/inculcating-Dharma-in-Young-Minds.html" target="_blank" >
+                Organiser: Sanskaar Deeksha Shivir
+                </a>
+            </div>
                     <p>You can see the pictures of the earlier shivira-s in Events held tab.</p>
                 </div>
             </div>

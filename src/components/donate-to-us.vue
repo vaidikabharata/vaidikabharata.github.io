@@ -10,8 +10,8 @@
         <p><b>Account Number:</b> 073405001350</p>
         <p><b>Account Type:</b> Current</p>
         <p><b>Account Name:</b> Vaidik Bharat Trust</p>
-        <p><b>IFSC:</b> ICIC0000734</p>
-        <p><b>Address:</b></p>
+        <p><b>IFSC:</b> icic0000734</p>
+        <p><b>Bank's address:</b></p>
         <p>Agra Chowk, Plot No. 5. New Colony.</p>
         <p>Palwal, Haryana.</p>
         <p>P.I.N: 121102</p>
