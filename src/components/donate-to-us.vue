@@ -18,6 +18,7 @@
         <br/>
         <p><b>PayTM QR Code</b></p>
         <img alt="payTM QR Code" class="qr-img" src='./img/payTMQRCode.jpg'>
+        <br/>
         <i>Please note that we do not have an FCRA license and so we can not accept foreign contributions.</i>
     </div>
 </template>
