@@ -3,7 +3,7 @@
         <h2>Donate to us:</h2>
         <br/>
         <p><a href="https://www.instamojo.com/@vaidikabharatatrust" target="_blank">
-            <b><h4>Please click here to make a quick donation.</h4></b></a></p>
+            <b><h4>Kindly click here to make a quick donation.</h4></b></a></p>
         <br/>
         <h4>Bank details for direct payment:</h4>
         <p><b>Bank:</b> ICICI Bank</p>
