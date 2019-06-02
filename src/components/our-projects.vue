@@ -235,8 +235,8 @@
             </div>
                     <p>You can see the pictures of the earlier shivira-s in Events held tab.</p>
                 </div>
-                </div>
-                </div>
+             </div>
+          </div>
                 <div v-show="showModal7" class="modal-backdrop">
             <div class="modal">
                 <div class="modal-header">
@@ -266,7 +266,8 @@
                 showModal3: false,
                 showModal4: false,
                 showModal5: false,
-                showModal6: false
+                showModal6: false,
+                showModal7: false
             }
         }
     }
