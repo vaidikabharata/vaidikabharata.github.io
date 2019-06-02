@@ -253,11 +253,6 @@
                     <p>Unfortunately, like many others things we have inherited from our ancestors, this tradition is also dying, to do our part in ensuring it doesn't vanish and continues in a fashion as desired by the scholars who are capable of holding it, we're orgainising vakyartha sabha-s every two months in the city of Pune, Maharashtra. Scholars from Pune and nearby cities who are learning/already learnt various shastra-s are invited to take part in the sabha.</p>
                 
                 </div>
-        
-
-                
-                
-            </div>
         </div>
     </div>
 </template>
