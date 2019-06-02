@@ -8,6 +8,7 @@
             <p @click="showModal4=!showModal4" class="project_name">Revival of syv shrauta karma</p>
             <p @click="showModal5=!showModal5" class="project_name">Holding veda parayanam-s</p>
             <p @click="showModal6=!showModal6" class="project_name">Samskara deekshaa shivira-s</p>
+            <p @click="showModal7=!showModal7" class="project_name">Vakyartha Sabha-s</p>
         </div>
         <div v-show="showModal1" class="modal-backdrop">
             <div class="modal">
@@ -206,7 +207,7 @@
             <div class="modal">
                 <div class="modal-header">
                     <div class="col-md-11">
-                        <h3>Samskara deekshaa shivira-s</h3>
+                        <h3>Samskara Deekshaa Shivira-s</h3>
                     </div>
                     <div class="col-md-1 modal-header-close_button">
                         <i @click="showModal6=false" class="fas fa-times"></i>
@@ -234,6 +235,27 @@
             </div>
                     <p>You can see the pictures of the earlier shivira-s in Events held tab.</p>
                 </div>
+                
+                <div v-show="showModal7" class="modal-backdrop">
+            <div class="modal">
+                <div class="modal-header">
+                    <div class="col-md-11">
+                        <h3>Vakyartha Sabha-s</h3>
+                    </div>
+                    <div class="col-md-1 modal-header-close_button">
+                        <i @click="showModal7=false" class="fas fa-times"></i>
+                    </div>
+
+                </div>
+                <div class="modal-body">
+                    <p>A vakyartha sabha is the original bharatiya way of learned scholars and students gathering, discussing and deliberating on complex shastriya topics. This is the oldest continuing tradition in all of humanity where scholars sit to share and ponder upon their opinions on various topics under the sun. </p>
+                    <p>Unfortunately, like many others things we have inherited from our ancestors, this tradition is also dying, to do our part in ensuring it doesn't vanish and continues in a fashion as desired by the scholars who are capable of holding it, we're orgainising vakyartha sabha-s every two months in the city of Pune, Maharashtra. Scholars from Pune and nearby cities who are learning/already learnt various shastra-s are invited to take part in the sabha.</p>
+                
+                </div>
+        
+
+                
+                
             </div>
         </div>
     </div>
