@@ -7,19 +7,24 @@
             </div><br/>
             <section>
                 <p><b>Mohit Bhardwaj</b></p>
-                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">7838597892</p></div>
+                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">+91-7838597892</p></div>
                 <div><i class="fab fa-twitter-square"></i><p class="v-inline-block">@vvaayu</p></div>
             </section>
             <p></p>
             <section>
                 <p><b>Rajender Bainsla</b></p>
-                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">9992200235</p></div>
+                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">+91-9992200235</p></div>
                 <div><i class="fab fa-twitter-square"></i><p class="v-inline-block">@rajbainsla</p></div>
             </section>
             <p></p>
             <section>
                 <p><b>Ajay Kumar</b></p>
-                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">9821077055</p></div>
+                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">+91-9821077055</p></div>
+            </section>
+            <p></p>
+            <section>
+                <p><b>Akarshan Kumar</b></p>
+                <div><i class="fas fa-mobile-alt"></i><p class="v-inline-block">+1-312-509-1870</p></div>
             </section>
             <p></p>
             <section>
